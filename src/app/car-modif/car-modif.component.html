@@ -1,0 +1,57 @@
+<!--div.row*2>div.col-6*2>div.form.group>label+br+input.form-control-->
+<div *ngIf="car" class="row">
+    <div class="col-6">
+      <div class="form group">
+        <label>Marque de la voiture</label>
+        <br>
+        <input type="text" class="form-control" [(ngModel)]="car.marque">
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="form group">
+        <label>type de voiture</label>
+        <br>
+        <input type="text" class="form-control" [(ngModel)]="car.type">
+      </div>
+    </div>
+</div>
+<div *ngIf="car" class="row">
+    <div class="col-6">
+      <div class="form group">
+        <label>Catégorie de la voiture</label>
+        <br>
+        <input type="text" class="form-control" [(ngModel)]="car.categorie">
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="form group">
+        <label>disponibilité</label>
+        <br>
+        <select  type="text" class="form-control" [(ngModel)]="car.onSold">
+          <option value="a vendre">a vendre</option>
+          <option value="vendu">vendu</option>
+        </select>
+      </div>
+    </div>
+</div>
+<div *ngIf="car" class="row">
+  <div class="col-12">
+    <div class="form group">
+      <label>choisisez la couleur</label>
+      <br>
+      <select  type="text" class="form-control" [(ngModel)]="car.colorCar">
+        <option value="white">blanc</option>
+        <option value="black">noir</option>
+        <option value="yellow">jaune</option>
+        <option value="red">rouge</option>
+        <option value="blue">bleu</option>
+      </select>
+    </div>
+  </div>
+</div>
+  <!--div.txt-center>btn.btn-outline-success>{envoyer}-->
+<div  *ngIf="car" class="txt-center">
+    <button class="btn-outline-warning" (click)="onModif()">
+      Modifier
+    </button>
+</div>

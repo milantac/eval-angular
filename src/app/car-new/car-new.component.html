@@ -1,0 +1,57 @@
+<!--div.row*2>div.col-6*2>div.form.group>label+br+input.form-control-->
+<div class="row">
+  <div class="col-6">
+    <div class="form group">
+      <label>Marque</label>
+      <br>
+      <input type="text" class="form-control" [(ngModel)]="newCar.marque">
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="form group">
+      <label>type</label>
+      <br>
+      <input type="text" class="form-control" [(ngModel)]="newCar.type">
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-6">
+    <div class="form group">
+      <label>catégorie</label>
+      <br>
+      <input type="text" class="form-control" [(ngModel)]="newCar.categorie">
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="form group">
+      <label>disponibilité</label>
+      <br>
+      <select  type="text" class="form-control" [(ngModel)]="newCar.onSold">
+        <option value="a vendre">a vendre</option>
+        <option value="vendu">vendu</option>
+      </select>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12">
+    <div class="form group">
+      <label>choisisez la couleur</label>
+      <br>
+      <select  type="text" class="form-control" [(ngModel)]="newCar.colorCar">
+        <option value="white">blanc</option>
+        <option value="black">noir</option>
+        <option value="yellow">jaune</option>
+        <option value="red">rouge</option>
+        <option value="blue">bleu</option>
+      </select>
+    </div>
+  </div>
+</div>
+<!--div.txt-center>btn.btn-outline-success>{envoyer}-->
+<div class="txt-center">
+  <button class="btn-outline-success" (click)="onSaveCar()">
+    enregistrer
+  </button>
+</div>

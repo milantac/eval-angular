@@ -1,0 +1,114 @@
+<li [ngClass]="{'list-group-item':true}">
+   <!--  j apelle une fonction changeBgColor() pour definir la couleur du background de mon li -->
+   <div class="row">
+      <div class="col-2">
+         <div class="onSold" *ngIf="carOnSold=='vendu'">
+            <img src="https://www.immorium.com/img/bandeau/Bandeau_4.png" alt="">
+         </div>
+         <div class="onSold" *ngIf="carOnSold=='a vendre'">
+            <img src="https://www.rueil-92-coworking.com/wp-content/uploads/2019/06/a_vendre.jpg" alt="">
+         </div>
+      </div>
+      <div class="col-4">
+         <svg
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:cc="http://creativecommons.org/ns#"
+            xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:svg="http://www.w3.org/2000/svg"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+            xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+            version="1.0"
+            width="800.000000pt"
+            height="256.000000pt"
+            viewBox="0 0 800.000000 256.000000"
+            preserveAspectRatio="xMidYMid meet"
+            id="svg78"
+            sodipodi:docname="cartes2t.svg"
+            inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+         >
+            <metadata
+               id="metadata84">
+            </metadata>
+            <defs id="defs82" />
+            <ellipse class="clignotement"
+               style="fill:#fdf583;stroke-width:1.0291;fill-opacity:1"
+               id="path116"
+               ry="28.86079"
+               rx="15.172226"
+               cy="642.33942"
+               cx="401.93207"
+               transform="matrix(0.64256426,-0.7662318,0.74009832,0.67249869,0,0)"
+            />
+            <path class="clignotement"
+               style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ff6600;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+               d="m 748.22374,133.02117 c 2.52088,5.68107 3.34056,6.57104 2.8954,11.22297 -0.004,0.0494 -0.005,0.0434 -0.0117,0.0684 -0.0453,0.0281 -0.25777,0.16008 -0.25781,0.16016 -5e-5,8e-5 0.20082,0.55066 0.20117,0.55078 7e-4,2.3e-4 0.0521,0.0142 0.0605,0.0156 0.008,10e-4 0.0155,0.003 0.0215,0.004 0.0479,0.007 0.11974,0.0145 0.24219,0.0273 0.24491,0.0258 0.65774,0.0668 1.18555,0.11914 1.05561,0.10463 2.57414,0.25363 4.1289,0.4043 3.10952,0.30133 6.94259,0.54675 6.94259,0.54675 -0.2289,-3.10918 -2.10753,-12.34988 -2.90452,-13.20725 0.34475,6.5322 -7.57902,-0.10881 -12.50382,0.088 z"
+               id="path104" 
+            />
+            <path class="clignotement"
+               style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ff5555;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+               d="m 36.125,103.76758 -0.09375,0.0586 c 0,0 -4.793959,2.97861 -9.757812,7.14649 -4.963854,4.16788 -10.144211,9.48622 -10.835938,14.43164 -0.107147,0.76603 -0.700694,1.85365 -1.380859,2.99804 -0.680166,1.1444 -1.437867,2.35641 -1.832032,3.52539 -0.197082,0.5845 -0.305253,1.16527 -0.242187,1.72657 0.06307,0.5613 0.311683,1.09949 0.77539,1.53515 0.927415,0.87133 2.624542,1.36702 5.517579,1.48047 41.764933,1.63784 64.84375,-27.16601 64.84375,-27.16601 l 0.148437,-0.18555 -2.419922,-4.96484 z"
+               id="path96"
+            />
+            <path class="clignotement"
+               style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ff6600;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+               d="m 6.98659,126 c -1.8743231,2.1552 -6.37485337,7.40527 -5.6644016,7.8575 L 19.6875,133.31055 c 0,0 0.642506,-2.27925 1.198541,-3.63833 C 21.326933,128.59457 22.58659,126 22.58659,126 Z"
+               id="path88" 
+            />
+            <g transform="matrix(-0.1,0,0,-0.1,800.08659,256)" stroke="none" id="g76">
+                  <path [ngStyle]="{fill:changeColor()}"
+                     d="m 4150,2554 c -402,-34 -336,-9 -1011,-388 l -576,-323 -819,-92 C 1294,1701 892,1652 852,1644 748,1622 617,1553 534,1477 473,1422 456,1412 385,1392 208,1342 61,1247 19,1155 5,1126 0,1091 0,1023 v -93 h 60 60 v 73 c 0,88 19,130 75,169 42,29 196,100 203,93 2,-2 -1,-20 -8,-40 -7,-20 -8.9081,-29.7285 -11.12723,-42.7484 C 389.87277,1170.2516 503,1195 510,1210 c 4,8 18,39 31,67 41,95 131,172 257,219 l 65,25 -7,-43 c -11,-70 -61,-164 -115,-218 -88,-88 -257,-150 -406,-150 -89,0 -128,-32 -111,-88 12,-37 56,-46 169,-34 256,27 442,137 531,315 35,71 66,170 66,213 0,17 7,23 38,27 20,3 383,45 806,93 l 769,86 561,316 c 309,173 576,321 595,329 97,41 318,63 636,64 437,0 840,-59 1365,-200 488,-132 1117,-362 1545,-566 l 90,-43 -162,-1 c -162,-1 -163,-1 -179,-26 -23,-35 -4,-108 48,-185 114,-171 344,-269 691,-296 l 87,-7 V 873 c 0,-178 -3,-235 -12,-238 -21,-8 -859,-185 -874,-185 -11,0 -14,19 -14,83 -1,168 -38,315 -112,442 -53,91 -192,230 -283,283 -213,125 -478,142 -707,46 -181,-75 -346,-241 -422,-422 -47,-111 -57,-175 -63,-385 l -6,-197 h -386 -387 l -52,-60 -53,-60 h 483 c 402,0 487,2 504,14 18,13 19,32 25,268 6,239 7,257 32,326 72,201 220,348 422,419 72,25 94,28 210,28 110,0 141,-4 200,-24 102,-34 200,-95 274,-171 77,-76 122,-149 159,-252 23,-66 26,-92 31,-260 7,-209 11,-223 73,-220 18,1 262,51 542,111 393,84 513,113 523,127 17,23 19,644 3,675 -10,17 -22,19 -120,19 -271,0 -495,67 -615,184 -30,30 -55,59 -55,65 0,8 67,11 214,11 h 215 l 73,-100 73,-100 h 78 78 l -62,83 c -33,45 -85,116 -116,158 l -55,77 -151,72 c -949,455 -1901,753 -2697,845 -127,15 -599,28 -700,19 z"
+                     id="path58" 
+                  />
+                  <path [ngStyle]="{fill:changeColor()}"
+                     d="m 4050,2359 c -221,-19 -210,-15 -695,-286 -242,-135 -455,-257 -472,-270 l -33,-24 -2,-737 -3,-737 -177,-3 -178,-2 v 157 c 0,184 -10,266 -46,372 -38,113 -96,205 -193,302 -97,97 -189,155 -301,193 -297,98 -605,23 -821,-201 C 976,964 915,813 903,561 l -6,-134 -126,6 C 559,444 303,496 173,555 l -53,24 v 80 81 h 235 236 l 24,25 c 31,31 31,49 0,80 l -24,25 H 295 0 V 692 C 0,485 -7,501 110,446 290,362 621,300 901,300 c 128,0 123,-10 130,222 5,162 10,203 28,258 69,201 223,355 426,427 72,25 94,28 210,28 110,0 141,-4 200,-24 102,-34 200,-95 274,-171 76,-76 122,-148 159,-252 25,-70 27,-83 29,-303 2,-126 6,-240 8,-252 13,-56 -53,-53 1050,-53 h 1014 l 116,136 c 378,442 613,784 669,973 42,143 -2,319 -109,439 -29,32 -45,58 -41,67 5,13 -108,15 -952,15 -801,1 -954,3 -939,14 9,7 163,95 342,196 306,171 330,183 407,196 197,34 584,41 843,14 160,-16 272,-32 284,-39 7,-5 -4,-52 -39,-156 -28,-82 -50,-151 -50,-153 0,-1 30,-2 67,0 l 67,3 44,140 c 24,77 46,142 48,144 13,14 601,-133 850,-213 137,-45 174,-65 174,-99 0,-40 -24,-42 -562,-45 -285,-2 -518,-7 -518,-11 0,-4 9,-16 20,-26 12,-10 30,-34 41,-52 l 21,-33 h 472 c 537,0 548,1 609,69 59,65 58,142 0,212 -37,43 -79,62 -280,123 -464,141 -865,225 -1247,261 -171,16 -553,18 -716,4 z m 956,-706 c 47,-46 82,-125 96,-209 9,-58 7,-74 -12,-135 -50,-155 -283,-491 -601,-867 l -121,-142 -696,2 -697,3 -3,693 -2,692 h 1000 999 z"
+                     id="path60" 
+                  />
+               <path
+                  d="m 4760,1315 v -65 h 90 90 v 65 65 h -90 -90 z"
+                  id="path62" 
+               />
+            </g>
+            <g id="g81">
+               <g id="g88">
+                  <g id="g47"/>
+               </g>
+            </g>
+            <g id="g316">
+               <path
+                  id="path160"
+                  style="fill:#000000;stroke-width:0.843515"
+                  d="M 242.2207 184.97656 C 198.78984 184.97626 163.58202 219.3971 163.58203 261.85742 C 163.582 304.31776 198.78984 338.73859 242.2207 338.73828 C 285.65157 338.73859 320.85938 304.31777 320.85938 261.85742 C 320.85939 219.39709 285.65154 184.97626 242.2207 184.97656 z M 242.64062 202.06055 C 276.12369 202.06031 303.26759 229.39936 303.26758 263.125 C 303.26759 296.85065 276.1237 324.19165 242.64062 324.19141 C 221.78178 324.19156 203.38522 313.5787 192.47656 297.42383 C 198.00034 295.40779 208.53565 294.15866 218.58398 289.4707 C 224.9374 295.21667 233.37811 298.71882 242.64062 298.71875 C 252.58288 298.71882 261.57503 294.67988 268.05859 288.16602 C 275.42896 291.18986 284.39468 291.5603 294.44141 294.65625 C 290.44271 290.33709 285.22153 280.89445 276.91602 273.33008 C 277.887 270.09704 278.41602 266.6722 278.41602 263.125 C 278.41603 246.36595 266.76871 232.32264 251.0918 228.54297 C 249.82727 220.45876 245.25593 212.49894 242.45508 202.06445 C 242.51727 202.06426 242.57839 202.06055 242.64062 202.06055 z M 242.40039 202.06641 C 240.85294 207.85687 235.68561 217.44058 233.76953 228.63867 C 218.30274 232.56456 206.86523 246.51428 206.86523 263.125 C 206.86523 267.29439 207.592 271.29376 208.91602 275.01172 C 203.05938 280.68151 199.27285 289.03817 192.43164 297.35938 C 185.85631 287.59482 182.01367 275.81244 182.01367 263.125 C 182.01367 229.48054 209.02848 202.19733 242.40039 202.06641 z "
+                  transform="scale(0.75)" 
+               />
+            </g>
+            <g id="g316-8" transform="translate(449.63596,2.618468)">
+               <path
+                  id="path160-2"
+                  style="fill:#000000;stroke-width:0.843515"
+                  d="m 242.2207,184.97656 c -43.43086,-3e-4 -78.63868,34.42054 -78.63867,76.88086 -3e-5,42.46034 35.20781,76.88117 78.63867,76.88086 43.43087,3.1e-4 78.63868,-34.42051 78.63868,-76.88086 1e-5,-42.46033 -35.20784,-76.88116 -78.63868,-76.88086 z m 0.41992,17.08399 c 33.48307,-2.4e-4 60.62697,27.33881 60.62696,61.06445 10e-6,33.72565 -27.14388,61.06665 -60.62696,61.06641 -20.85884,1.5e-4 -39.2554,-10.61271 -50.16406,-26.76758 5.52378,-2.01604 16.05909,-3.26517 26.10742,-7.95313 6.35342,5.74597 14.79413,9.24812 24.05664,9.24805 9.94226,7e-5 18.93441,-4.03887 25.41797,-10.55273 7.37037,3.02384 16.33609,3.39428 26.38282,6.49023 -3.9987,-4.31916 -9.21988,-13.7618 -17.52539,-21.32617 0.97098,-3.23304 1.5,-6.65788 1.5,-10.20508 10e-6,-16.75905 -11.64731,-30.80236 -27.32422,-34.58203 -1.26453,-8.08421 -5.83587,-16.04403 -8.63672,-26.47852 0.0622,-1.9e-4 0.12331,-0.004 0.18554,-0.004 z m -0.24023,0.006 c -1.54745,5.79046 -6.71478,15.37417 -8.63086,26.57226 -15.46679,3.92589 -26.9043,17.87561 -26.9043,34.48633 0,4.16939 0.72677,8.16876 2.05079,11.88672 -5.85664,5.66979 -9.64317,14.02645 -16.48438,22.34766 -6.57533,-9.76456 -10.41797,-21.54694 -10.41797,-34.23438 0,-33.64446 27.01481,-60.92767 60.38672,-61.05859 z"
+                  transform="scale(0.75)" 
+               />
+            </g>
+         </svg>
+      </div>
+
+      <div class="col-4">
+<!--  j'apelle une fonction changeColor() pour definir la couleur du texte en fonction de la couleur de la voiture -->      
+         <h3 [ngStyle]="{color: changeColor()}">
+            Marque de la voiture : {{ carMarque }}
+            <br> 
+            Type: {{ carType }}
+            <br> 
+            catégorie: {{ carCategorie }}
+         </h3>
+      </div>
+      <div class="col-2">
+            <a style="color: black; background-color: white; border: green 2px solid"class="btn btnoutline-warning" [routerLink]="['/modif', id]">🖉</a>&nbsp; <!--a.btn.btnoutline-warning>{M}-->
+            <button style="background-color: white;" class="btn btn-outline-danger" (click)="removeCar(id)">🗑</button>
+      </div>
+
+   </div>
+
+</li>
+

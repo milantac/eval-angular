@@ -1,0 +1,7 @@
+<div class="">
+  <ul class="list-group">
+    <app-car *ngFor="let tmp of cars" [carMarque]="tmp.marque" [carType]="tmp.type" [carCategorie]="tmp.categorie" [carOnSold]="tmp.onSold" [carColorCar]="tmp.colorCar" [id]="tmp._id">
+        <!-- attention de de marquer les bons noms marque et non Marque -->
+    </app-car>
+  </ul>
+</div>
